@@ -35,6 +35,8 @@ US_Foods_Challenge/
 └── README.md             # (this file)
 ```
 
+![Visualization of the codebase](./diagram.svg)
+
 ---
 
 ## Setup Instructions
