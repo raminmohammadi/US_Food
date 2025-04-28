@@ -32,7 +32,7 @@ app = FastAPI(
     title=settings.API_TITLE,
     description=settings.API_DESCRIPTION,
     version=settings.API_VERSION,
-    lifespan=lifespan   # 👈 THIS was missing
+    lifespan=lifespan 
 )
 
 # Add Middleware after app creation
