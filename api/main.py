@@ -35,7 +35,7 @@ app = FastAPI(
     lifespan=lifespan 
 )
 
-# Add Middleware after app creation
+# Middleware
 app.add_middleware(LoggingMiddleware)
 
 @app.get("/", tags=["Health"])
